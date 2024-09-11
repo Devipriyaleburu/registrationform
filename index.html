@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #in{
+            padding:10px ;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            width: 200px;
+            border-radius: 5px;
+
+        }
+        #fo{
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 80px;
+        }
+        #text{
+            font-size: 30px;
+            color: blue;
+            margin-right: 15px;
+        }
+        #p{
+         font-size:30px;
+        }
+        #fo:hover{
+        background: linear-gradient(blue,white);
+        border-radius: 5px;
+        }
+        #bn{
+            padding: 10px;
+            background-color: black;
+            color:aliceblue;
+            border-radius: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <span id="text">Registration form</span>
+        <span  id="p" class="bi bi-person"></span>
+           <br>
+           <br>
+    
+    <form id="fo">
+        <input id="in" type="text" placeholder="Enter username"><br>
+        <input id="in" type="email" placeholder="Enter email"> <br>
+        <input id="in" type="password" placeholder="Enter your password"><br>
+        <input id="in" type="file" placeholder="Enter your CV"> 
+        <button id="bn">Log in</button>
+    </form>
+    </div>
+</body>
+</html>
